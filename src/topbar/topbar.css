@@ -1,0 +1,23 @@
+*{
+    margin:0
+}
+
+
+nav{
+    background-color: aquamarine;
+    height: 50px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+
+}
+
+li{
+    flex: 1;
+}
+
+.topbar{
+    background-color: rgb(20, 109, 109);
+}
