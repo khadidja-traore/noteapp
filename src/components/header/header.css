@@ -1,0 +1,12 @@
+.header{
+    background-color: aqua;
+    height: 30px;
+}
+
+.sidebar-toggle{
+    float: left;
+    display: inline-block;
+    margin-left: 5%;
+    /* padding: 1rem; */
+    
+}
