@@ -1,0 +1,41 @@
+.note{
+    // flex: 1  1 40%;
+    width: 40%;
+    border: 1px solid black;
+    margin: 5%;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .note-description{
+        overflow-y: hidden;
+        height: 60%;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+    }
+
+    .note-image{
+        width: 100%;
+    }
+    
+    .button-view-note{
+        cursor: pointer;
+    }
+    
+}
+
+@media screen and (max-width: 700px){
+
+    .note{
+        flex: 1 1 100%;
+        
+    }
+
+
+}
+
+
+

@@ -1,0 +1,23 @@
+.single-note-container {
+  padding: 2% 10%;
+  min-height: 100vh;
+  background-color: aquamarine;
+}
+.single-note-container img {
+  max-width: 80%;
+}
+
+.single-note-edit {
+  text-align: right;
+  background-color: aquamarine;
+}
+.single-note-edit .single-note-icon {
+  margin: 0 10px;
+  cursor: pointer;
+}
+.single-note-edit .single-note-icon:first-child {
+  color: teal;
+}
+.single-note-edit .single-note-icon:last-child {
+  color: tomato;
+}/*# sourceMappingURL=singlenote.css.map */
