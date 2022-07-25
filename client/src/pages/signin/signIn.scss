@@ -1,4 +1,4 @@
-.signin{
+.register{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -20,17 +20,17 @@
         cursor: pointer;
     }
 
-    .form-signin{
+    .form-register{
         display: flex;
         flex-direction: column;
         align-items: center;
 
-        .input-signin{
+        .input-register{
             margin: 2%;
             padding: 0 2rem;
         }
 
-        .signin-button{
+        .register-button{
             margin: 2%;
             padding: 0 1rem;
         }

@@ -19,7 +19,7 @@ export default function Login() {
 
         <button className="login-button"> Se Connecter  </button>
         </form>
-        <button className="to-signin-button"> S'inscrire </button>
+        <button className="to-register-button"> S'inscrire </button>
     
     </div>
   )
